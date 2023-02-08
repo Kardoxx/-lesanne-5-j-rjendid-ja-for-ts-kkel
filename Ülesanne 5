@@ -1,0 +1,14 @@
+# Muutuja  range'i arvud
+arvud = [10, 61, 2, 14, 42, 24, 7, 5]
+
+
+def arvude_jarjend(arv): # Defineerib arvude järjendi
+    summa = 0 # Summa 0
+    for n in arv:  # for ehk kui n on/oleks arvus
+        summa += n  # Summale liidetakse n juurde
+        print(summa) # Väljastab summa
+
+
+if arvud == []:
+    print(0) # Väljastab arvu 0
+print(arvude_jarjend(arvud)) # Väljastab arvude järjendi ning ka arvud
